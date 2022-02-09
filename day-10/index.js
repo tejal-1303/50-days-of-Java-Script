@@ -10,7 +10,7 @@ function removeArrayElement(filterField) {
     // write your solution here
   var arr = array.filter(function (obj)
   {
-      return obj.field!== "money";
+      return obj.field!== filterField;
   });
   return arr;
 }
